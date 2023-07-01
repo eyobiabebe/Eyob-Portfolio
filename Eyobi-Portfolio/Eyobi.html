@@ -1,0 +1,223 @@
+<!DOCTYPE htmlcontainer>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eyobi Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="image/e-logo1.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/3135206875.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+ <div class="container">
+   <nav >
+    <p class="E-logo"><span style="color: brown; font-size: 55px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">E</span>yobi</p>
+    <ul id="sidemenu">
+      <li ><a href="#header">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Servies</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+   </nav>
+
+   <div class="header-text">
+   <p>DTU Student</p>
+   <h1>Hi, I'm <span>Eyob</span><br>Abebe From Ethiopia</h1>
+   </div>
+ 
+  </div>
+  <!----------------about--------------->
+  <div id="about">
+      <div class="container">
+     <div class="row">
+      <div class="about-col-1">
+     <img src="eyu-ed.jpg" alt="">
+      </div>
+      <div class="about-col-2">   
+        <h2 class="sub-title">About Me</h2>
+       <p>My name is Eyob Abebe defaru am from bahirdar currently am studied in debretab</p>
+    <div class="tab-titles">
+       <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+       <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+       <p class="tab-links" onclick="opentab('education')">Education</p>
+    </div>
+    <div class="tab-contents active-tab" id="skills">
+      <ul>
+        <li><span>Web Development</span><br>Designing website interface</li>
+        <li><span>Java application</span><br>Creating Mobile Games using JavaFx</li>
+        <li><span>adobe photoshoping</span><br>Editing pictures</li>
+      </ul>
+    </div>
+    <div class="tab-contents" id="experiance">
+      <ul>
+        <li><span>2022-current</span><br>Designing website interface at DTU</li>
+        <li><span>2019-2021</span><br>Creating Graphical User Interface at DTU</li>
+        <li><span>2017-current</span><br>Editing pictures at BahirDar</li>
+      </ul>
+    </div>
+    <div class="tab-contents" id="education">
+      <ul>
+        <li><span>2022-current</span><br>DebreTabor University</li>
+        <li><span>2000</span><br>Bahirdar acadamey High school</li>
+      </ul>
+    </div>
+      </div>
+     </div>
+     
+      </div>
+  </div>
+  <!----------------Service--------------->
+  <div id="services">
+    <div class="container">
+      <h2 class="sub-title">My Services</h2>
+      <div class="services-list">
+       <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>I Creating a better web design for customer<br>
+           <a href="#">Learn More</a>
+       </div>
+       <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>Java/GUI Design</h2>
+        <p>concern with user friendly with other customer<br>
+           <a href="#">Learn More</a>
+       </div>
+       <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>Photoshopes Design</h2>
+        <p>Editing a photo with good quality<br>
+           <a href="#">Learn More</a>
+       </div>
+
+      </div>
+    </div>
+  </div>
+  <!-----------------------portfolio------------------------------------->
+  <div id="portfolio">
+    <div class="container">
+      <h2 class="sub-title">My Work</h2>
+      <div class="work-list">
+        <div class="descriphoto">
+          <div class="work">
+            <img src="wpc6.jpg" >
+            
+          </div>
+          <div>
+            <p>Different web design i perform like  this picture shown in the left is 
+               creating for web development in website in any means
+                </p>
+          </div>
+        </div>
+        <div class="descriphoto1">
+          <div>
+            <p>interfacing the adimn with the customer by using javafx and other 
+               web development application. 
+                </p>
+
+          </div>
+          <div class="work1">
+            <img src="gui-lorem3.jpg" >
+            
+          </div>
+          
+        </div>
+
+        <div class="descriphoto2">
+
+          <div class="work">
+            <img src="adobe-picture4.jpg" >
+            
+          </div>
+          <div>
+            <p>Editing a photo with good quality of image that capture by consumer.
+               and filter the photos by using different tools for dicorating. 
+                </p>
+
+          </div>
+        </div>
+        
+      </div>
+      <a href="https//facebook.com" class="btn" target="_blank">See More</a>
+    </div>
+  </div>
+  <!------------------------contacts------------------------------------------>
+  <div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="contact-left">
+          <h2 class="sub-title">Contact Me</h2>
+          <p><i class="fa-solid fa-paper-plane"></i>eyobabeb721@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>+251948837169</p>
+          <div class="social-icons">
+              <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-telegram"></i></a>
+          </div>
+          <a href="gpa.pdf" download class="btn btn2">Download GPA</a>
+        </div>
+        <div class="contact-right">
+       <form name="submit-to-google-sheet">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+        <button type="sub" class="btn btn2">Submit</button>
+       </form>
+       <span id="msg"> </span>
+        </div>  
+       </div>
+    </div>
+    <div class="copyright">
+      <p>Copy right @eyobi <i class="fa-solid fa-heart"></i> made by Eyob Abebe</p>
+    </div>
+  </div>
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+    sidemeu.style.right("0");
+    }
+    function closemenu(){
+    sidemeu.style.right("-200px");
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxuO7MezC7pbzO-St5O1k7pYwqIhu1uuvImf_xskvqelgB9Y7nmNNy1qcPBiY9P4HRU/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => 
+        {
+          msg.innerHTML="Message Sent Successfully";
+          setTimeout(function(){
+            msg.innerHTML=""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
